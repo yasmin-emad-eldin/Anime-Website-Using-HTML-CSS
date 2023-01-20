@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html>
+<style>
+    body {
+        background-image: url("./21.jpg");
+        font-size: large;
+     color:white;
+     font-weight:bold;
+font-family: Georgia, 'Times New Roman', Times, serif;    }
+
+input[type=text],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    input[type=email],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=password],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=reset] {
+        width: 100%;
+        background-color: #d15524b4;
+        color: white;
+        padding: 15px 22px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        background-color: #d15524b4;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    input[type=submit]:hover {
+        background-color: #24150480;
+    }
+
+    input[type=reset]:hover {
+        background-color: #24150480;
+    }
+    a:link {
+            text-decoration: none;
+            color: rgb(218, 16, 16);
+            font-weight: bold;
+    }
+    div {
+        border-radius: 5px;
+        background-color: #f2f2f22f;
+        padding: 30px;
+        margin:  40px 800px 100px 100px ;
+        width: 150x;
+        height: 600px;
+        
+
+    }
+    
+</style>
+
+<body>
+
+
+    <div>
+        <form action="loginout.html" method="get">
+            <label for="name">First Name</label>
+            <input type="text" id="fname" name="Fname" required placeholder="Your Frist Name ..">
+            <label for="name">Last Name</label>
+            <input type="text" id="Lname" name="Lname" required placeholder="Your Last Name ..">
+            <label for="name"> Email</label>
+            <input type="email" id="email" name="email" required placeholder="Your Email @g.com..">
+
+            <label for="password">Password</label>
+            <input type="Password" id="lname" name="Password" required placeholder="Your password ..">
+            <input type="radio" name="gender" value="Male">
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" value="Female">
+            <label for="gender">Female</label></br> </br>
+            <span>What's your favorite type of Anime?</span></br> </br>
+            <input type="checkbox" id="anime" name="anime" value="Action">
+            <label for="Action"> Action</label><br>
+            <input type="checkbox" id="anime2" name="anime2" value="Comedy">
+            <label for="comedy"> Comedy</label><br>
+            <input type="checkbox" id="anime3" name="anime2" value="Horro">
+            <label for="Horro"> Horro</label><br>
+            <input type="checkbox" id="anime4" name="anime4" value="Magic">
+            <label for="Magic"> Magic</label><br><br>
+
+            <input type="submit" value="Save" > <input type="reset" value="reset">
+            
+
+        </form>
+    </div>
+
+</body>
+
+</html>

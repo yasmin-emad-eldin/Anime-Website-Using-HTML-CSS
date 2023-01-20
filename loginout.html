@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            font-family: "Mulish", sans-serif;
+            font-size: medium;
+            font-weight: bold;
+            color: rgba(255, 255, 255, 0.808);
+
+
+        }
+
+        a:link {
+            text-decoration: none;
+            /* color: rgb(255, 255, 255); */
+            color: #ffffff;
+
+
+
+        }
+
+        a:hover {
+            background-color: rgba(231, 31, 31, 0.815);
+            padding: 20px;
+
+        }
+
+
+        body {
+            background: #0d0f36;
+        }
+
+        #header {
+            width: 100%;
+            background: #0b0c2a;
+            height: 40px;
+            background-attachment: scroll;
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            /* position: fixed; */
+
+        }
+
+        #b1 {
+            width: 99%;
+            background-color: #ffffff;
+            height: 500px;
+            overflow: visible;
+            background: url("./family.png");
+            /* margin: 100px auto; */
+            animation: slider 10s infinite;
+            /* animation-direction: alternate;
+            animation-play-state: running;
+            animation-timing-function: linear; */
+            margin: auto;
+
+            border: 2px solid #0b0c2a;
+            border-radius: 40px;
+            padding: 2px;
+
+        }
+
+
+        @keyframes slider {
+
+
+            25% {
+                background: url("./family.png");
+            }
+            50%{
+                background: url("./thank.jpg");
+
+            }
+            75%{
+                background: url("./1.jpg");
+
+            }
+
+            100% {
+                background: url("./5.jpg");
+            }
+
+        }
+
+        .red {
+            color: rgb(219, 211, 230);
+            font-weight: bold;
+            font-size: 22px;
+        }
+
+        #b2 {
+            width: 85%;
+            margin: auto;
+
+            background-color: #0b0c2a;
+
+            color: white;
+
+
+        }
+
+        #b-img1 {
+
+            float: left;
+        }
+
+        #b-img1 img {
+            width: 100%;
+            height: 25%;
+            margin-left: 29px;
+
+        }
+
+        .b-img1-1 {
+            position: relative;
+
+            width: 32.2%;
+            padding-right: 10px;
+            /* padding-left:5px; */
+
+            float: left;
+            /* margin: 6px; */
+
+        }
+
+        .image {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            /* background:#360d0f00 ; */
+            background: #0b0c2a4d;
+            /* Black see-through */
+            color: #f1f1f1;
+            width: 100%;
+            height: 30%;
+            transition: .5s ease;
+            opacity: 0;
+            color: rgb(251, 249, 252);
+            font-size: 11px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .b-img1-1:hover .overlay {
+            opacity: 1;
+        }
+
+        #b-img2 {
+
+            float: left;
+        }
+
+        #b-img2 img {
+            width: 100%;
+            height: 25%;
+            margin-left: 29px;
+        }
+
+
+        .b-img1-2 {
+            position: relative;
+
+            width: 32%;
+            padding-right: 10px;
+            /* padding-left:5px; */
+
+            float: left;
+            /* margin: 6px; */
+
+        }
+
+        .image2 {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .overlay2 {
+            position: absolute;
+            bottom: 0;
+            background: rgb(0, 0, 0);
+            background: #0b0c2a4d;
+            /* Black see-through */
+            color: #f1f1f1;
+            width: 100%;
+            height: 40%;
+            transition: .5s ease;
+            opacity: 0;
+            color: white;
+            font-size: 11px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .b-img1-2:hover .overlay2 {
+            opacity: 1;
+        }
+
+
+        #b-img3 {
+
+            float: left;
+        }
+
+        #b-img3 img {
+            width: 100%;
+            height: 25%;
+            margin-left: 29px;
+        }
+
+
+        .b-img1-3 {
+            position: relative;
+
+            width: 32%;
+            padding-right: 10px;
+            /* padding-left:5px; */
+
+            float: left;
+            /* margin: 6px; */
+
+        }
+
+        .image3 {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .overlay3 {
+            position: absolute;
+            bottom: 0;
+            background: rgb(0, 0, 0);
+            background: #0b0c2a4d;
+            /* Black see-through */
+            color: #f1f1f1;
+            width: 100%;
+            height: 40%;
+            transition: .5s ease;
+            opacity: 0;
+            color: white;
+            font-size: 11px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .b-img1-3:hover .overlay3 {
+            opacity: 1;
+        }
+
+        #b-img4 {
+
+            float: left;
+        }
+
+        #b-img4 img {
+            width: 100%;
+            height: 25%;
+            margin-left: 29px;
+        }
+
+        .b-img1-4 {
+            position: relative;
+
+            width: 32%;
+            padding-right: 10px;
+            /* padding-left:5px; */
+
+            float: left;
+            /* margin: 6px; */
+
+        }
+
+        .image4 {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .overlay4 {
+            position: absolute;
+            bottom: 0;
+            background: rgb(0, 0, 0);
+            background: #0b0c2a4d;
+            /* Black see-through */
+            color: #f1f1f1;
+            width: 100%;
+            height: 40%;
+            transition: .5s ease;
+            opacity: 0;
+            color: white;
+            font-size: 11px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .b-img1-4:hover .overlay4 {
+            opacity: 1;
+        }
+
+
+        /*         
+        #b-img2 {
+            width: 100%;
+            height: 25%;
+            background-color: rgb(60, 216, 29);
+        }
+        #b-img2-1,#b-img2-2,#b-img3-3{
+            width: 30%;
+            float: left;
+            background: size 100px;
+
+ width: 200px;
+            height: 500px;
+        }
+
+        #b-img3 {
+            width: auto;
+            height: 25%;
+            background-color: rgb(151, 67, 151);
+        }
+        #b-img3-1,#b-img3-2,#b-img3-3{
+            width: 30%;
+            float: left;
+            background: size 100px;
+            width: 200px;
+            height: 500px;
+
+        }
+
+        #b-img4 {
+            width: 100%;
+            height: 25%;
+            background-color: rgb(124, 61, 25);
+        }
+        #b-img4-1,#b-img4-2,#b-img4-3{
+            width: 200px;
+            height: 500px;
+            float: left;
+            background: size 100px;
+            width: 200px;
+            height: 500px;
+
+        } */
+
+        #footer {
+            width: 100%;
+            color: #ffffff00;
+            background-color: #0b0c2b;
+            height: 160px;
+            margin-left: 1px;
+
+            text-align: center;
+            background-image: url("./4.jpg");
+        }
+
+        .span {
+            float: left;
+        }
+
+        #h1 {
+            width: 100px;
+            padding-left: 70px;
+            padding-right: 150px;
+
+        }
+
+        #h2 {
+            width: 50px;
+            padding-right: 120px;
+            text-decoration: none;
+
+        }
+
+        #h3 {
+            width: 50px;
+
+            padding-right: 70px;
+
+        }
+
+        #h4 {
+            padding-left: 70px;
+
+            width: 50px;
+            padding-right: 140px;
+
+        }
+ 
+        /* #h5 {
+            width: 50px;
+            padding-right: 120px; 
+
+        } */
+
+        #h6 {
+            width: 50px;
+            padding-right: 70px;
+
+
+        }
+
+        .dropbtn {
+            background-color: #0b0c2b;
+            color: white;
+            padding: 15px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: rgba(231, 31, 31, 0.815);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <span id="h1">
+            <img src="logo (1).png" alt="">
+        </span>
+        <span id="h2"><a href="loginout.html">Homepage</a></span>
+        <span class="dropdown">
+            <button class="dropbtn">Categories</button>
+            <div class="dropdown-content">
+                <a href="#5">Action</a>
+                <a href="#4">Horro</a>
+                <a href="#3">Comedy</a>
+                <a href="#2">Magic</a>
+            </div>
+        </span>
+        <span id="h4"><a href="#1">Contacts</a></span>
+        <!-- <span id="h5"><a href="signup.html">Sign up</a></span> -->
+        <span id="h6"><a href="projectcss.html">login out</a></span>
+        </br>
+    </div>
+    <div id="b1"> </br></div>
+    <!-- id="b1-slides">
+       <div id <div ="b1-img-1" >
+<img src="./thumb-1920-699287.jpg">
+       </div>
+       <div id="b1-img-1" >
+        <img src="./Screenshot 2022-02-03 003652.png">
+               </div>
+               <div id="b1-img-1" >
+                <img src="./737400 3.jpg">
+                       </div>     -->
+
+    <div id="b2">
+        <!-- <div style="background-color:#0b0c2a; height:20px ;  padding:7px ; ">Action</div> -->
+        <div id="b-img1">
+            <div style="background-color:#0d0f36;height:30px; text-align: center; padding-top:5px ; "> <a name="2">Magic
+            </div>
+
+            <div class="b-img1-1">
+                <img src="./11.jpg" class="image">
+                <div class="overlay"> <span class="red">The Rising of the Shield Hero <br> Story:</span>
+                    Naofumi Iwatani, an uncharismatic Otaku who spends his days on games and manga, suddenly finds
+                    himself
+                    summoned to a parallel universe! He discovers he is one of four heroes equipped with legendary
+                    weapons and
+                    tasked with saving the world from its prophesied destruction. As the Shield Hero, the weakest of the
+                    heroes,
+                    all is not as it seems. Naofumi is soon alone, penniless, and betrayed. With no one to turn to, and
+                    nowhere to
+                    run, he is left with only his shield. Now, Naofumi must rise to become the legendary Shield Hero and
+                    save the
+                    world
+                </div>
+            </div>
+            <div class="b-img1-1">
+                <img src="./12.jpg" class="image">
+                <div class="overlay"><span class="red">Black Clover<br> Story:</span>
+                    Asta is a young boy who dreams of becoming the greatest mage in the kingdom. Only one problem—he
+                    can’t use any
+                    magic! Luckily for Asta, he receives the incredibly rare five-leaf clover grimoire that gives him
+                    the power of
+                    anti-magic. Can someone who can’t use magic really become the Wizard King? One thing’s for sure—Asta
+                    will
+                    never give up
+                </div>
+            </div>
+            <div class="b-img1-1">
+                <img src="./13.jpg" class="image">
+                <div class="overlay"><span class="red">Demon Slayer <br> Story:</span>
+                    The setting is Taisho era Japan. Tanjirou is a kindhearted young boy who lived peacefully with his
+                    family as a
+                    coal seller. Their normal life changes completely when his family is slaughtered by demons. The only
+                    other
+                    survivor, Tanjirou's younger sister Nezuko, has become a ferocious demon. In order to return Nezuko
+                    to normal
+                    and get revenge on the demon that killed their family, the two of them depart on a journey. From a
+                    young
+                    talent, an adventure tale of blood and swords begins!
+                </div>
+            </div>
+        </div>
+        <!-- <div>action</div> -->
+        <div id="b-img2">
+            <div style="background-color:#0d0f36;height:30px; text-align: center; padding-top:5px ; "><a name="3">Comedy
+            </div>
+
+            <div class="b-img1-2">
+                <img src="./7.jpg" class="image2">
+                <div class="overlay2"><span class="red">Naruto <br> Story:</span>
+                    Naruto Uzumaki is a young ninja who bears a great power hidden inside him, a power that has isolated
+                    him from
+                    the rest of his village. As such, his only dream is to become the Hokage - the most powerful ninja,
+                    and leader
+                    of the village; but first he needs to graduate! With his inability to perform even the most basic
+                    ninja
+                    techniques, it seems that all Naruto has going for him is his determination to succeed no matter
+                    what.. Teamed
+                    up with the genius Sasuke, book-smart Sakura, and their team leader Kakashi, Naruto embarks on his
+                    quest to
+                    become the Hokage.
+                </div>
+            </div>
+            <div class="b-img1-2">
+                <img src="./10.jpg" class="image2">
+                <div class="overlay2"><span class="red">Hunter x Hunter <br> Story:</span>
+                    rawn to the mystique of the unknown, Hunters travel the world in search of terrifying creatures,
+                    incredible
+                    riches, and unexplored lands. Gon Freecss is a naive-yet-determined young boy who aspires to join
+                    the ranks of
+                    these individuals, in order to find his missing father Ging - a master of the profession himself. To
+                    reach his
+                    goal, he partakes in the formidable Hunter Exam, a series of tests that push the participants to
+                    their
+                    physical and mental limits, with a Hunter License as the prize. During the exam Gon befriends
+                    vengeful
+                    Kurapika, doctor-to-be Leorio, and skilled assassin Killua, who have entered for their own reasons.
+                </div>
+            </div>
+            <div class="b-img1-2">
+                <img src="./8.jpg" class="image2">
+                <div class="overlay2"><span class="red">Gintama <br> Story:</span>
+                    t is the Edo period, an era when samurai are still of great importance - at least they used to be,
+                    until all
+                    sorts of aliens called the Amanto decided to take over the government and revolutionize Japan so it
+                    wouldn't
+                    be so uncivilized. In Edo, now a city where anachronism is the rule rather than the exception,
+                    Gintoki, a
+                    former samurai, tries to make a living doing odd jobs. During the course of his work, Shinpachi, a
+                    would-be
+                    samurai; and Kagura, an absurdly strong girl, join him.Of course, he has them work for free, how
+                    else would
+                    Gintoki be able to buy Shonen Jump and strawberry milk, let alone pay for unimportant things like
+                    rent if he
+                    has to support someone other than himself?
+                </div>
+
+            </div>
+        </div>
+        <!-- <div>action</div> -->
+        <div id="b-img3">
+            <div style="background-color:#0d0f36;height:30px; text-align: center; padding-top:5px ; "><a name="4">Herro
+            </div>
+
+            <div class="b-img1-3">
+                <img src="./16.jpg" class="image3">
+                <div class="overlay3"><span class="red">Gintama <br> Story:</span>
+
+                    Power corrupts, and absolute power corrupts absolutely. Top-ranked student Yagami Light is
+                    disenchanted with
+                    the world around him. Through a series of events, he comes into possession of the ultimate power
+                    over life and
+                    death: a supernatural "death note" which can kill nearly anyone at his whim. As Light sets off on a
+                    crusade-turned-killing-spree, investigators from a police task force try to stop the mysterious
+                    deaths -
+                    including Light's own father, a senior policeman.
+                </div>
+            </div>
+            <div class="b-img1-3">
+                <img src="./14.jpg" class="image3">
+                <div class="overlay3"><span class="red">The Promised Neverland <br> Story:</span>
+
+                    Emma, Norman, Ray, and many other "siblings" live at an isolated orphanage cut off from the outside
+                    world.
+                    They live a charmed life surrounded by friends and watched over by Mama, their caretaker, until they
+                    leave the
+                    house for a foster family by the age of twelve. The only rule is that they must never venture
+                    outside of the
+                    gate that isolates them from the rest of society, for dangers await. But one day, the children learn
+                    the true
+                    horror of what's in store for their short lives...
+                </div>
+            </div>
+            <div class="b-img1-3">
+                <img src="./17.jpg" class="image3">
+                <div class="overlay3"><span class="red">Bastard<br> Story:</span>
+                    Jin has lived a tough life. One of his oldest memories is waking up in the hospital, having received
+                    an
+                    artificial heart valve, and a glass eye. And as a student, he's relentlessly bullied for his
+                    disabilities. But
+                    Jin's school life is nothing compared to his home life, where he's raised by his father, a serial
+                    killer who
+                    targets young women and forces the boy to act as his accomplice. Can Jin do anything to stop his
+                    father's
+                    reign of terror without becoming the next victim?
+
+                </div>
+            </div>
+        </div>
+        <!-- <div>action</div> -->
+        <div id="b-img4">
+            <div style="background-color:#0d0f36;height:30px; text-align: center; padding-top:5px ; "><a name="5">Action
+            </div>
+
+            <div class="b-img1-4">
+                <img src="./19.jpg" class="image4">
+                <div class="overlay4"><span class="red">The Adventure of Dai<br> Story:</span>
+                    Begin the adventure of a lifetime in this classic fantasy series set in the world of the legendary
+                    Dragon
+                    Quest video games! Raised by monsters in a world scarred by battle, Dai has the heart of a hero! But
+                    it will
+                    take a grand world-spanning adventure and the help of some great friends for Dai to master the
+                    powers within
+                    him and become the hero he was always meant to be. Dai lives on Dermline Island, where he dreams of
+                    being a
+                    hero. One day, when a group of heroes visits the island, Dai finally gets a chance to prove himself!
+                    But these
+                    visitors are not what they seem, and soon Dai finds himself fighting to protect the Golden Metal
+                    Slime these
+                    so-called heroes have come to abduct
+                </div>
+            </div>
+            <div class="b-img1-4">
+                <img src="./18.jpg" class="image4">
+                <div class="overlay4"><span class="red">One Piece<br> Story:</span>
+                    Long ago the infamous Gol D. Roger was the strongest and most powerful pirate on the seas. As he was
+                    about to
+                    be executed he revealed that he hid all of his wealth, including the legendary treasure known as One
+                    Piece, on
+                    an island at the end of the Grand Line - a treacherous and truly unpredictable sea. Monkey D. Luffy
+                    is a
+                    spirited, energetic and somewhat dim-witted young man with a very big dream: to find One Piece and
+                    become the
+                    Pirate King! However Luffy is no ordinary boy, as when he was younger he ate one of the Devil's
+                    Fruits and
+                    gained its power to become a Rubber Man. Now in this grand age of pirates Luffy sets out to gather a
+                    crew and
+                    sail to the most dangerous sea in the world so that he can fulfill his dream... and maybe even his
+                    appetite!
+                </div>
+            </div>
+            <div class="b-img1-4">
+                <img src="./15.jpg" class="image4">
+                <div class="overlay4"><span class="red">Attack on Titan<br> Story:</span>
+                    Over a century ago, mankind was devoured by giant beings of unknown intelligence and origin known as
+                    Titans –
+                    creatures that eat humans alive indiscriminately and for no apparent reason. The remaining
+                    population has
+                    managed to survive the last hundred years only by building a multi-walled city capable of keeping
+                    the Titans
+                    at bay, training military recruits to patrol the perimeter and gather intelligence about their
+                    mysterious foe.
+                    Eren and Mikasa have lived a relatively peaceful life behind the city's walls, but when a massive
+                    Titan
+                    appears, smashing the outer barrier and unleashing a wave of terror, their lives are brutally
+                    changed forever
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="HeaderFooter" style="clear: both;"></div>
+
+    <div id="footer">
+        <br>
+        <a name="1">
+            <div id="f1">Contacts </div>
+            <div> Sent Complaint By : anime@gmail.com
+                <div>Support us By : Whatsapp :0111155577 </div>
+            </div>
+
+            <div id="f2">Copyright ©2022 All rights</div>
+    </div>
+</body>
+
+</html>
